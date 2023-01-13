@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: gray;
+}
+.logo{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.logo img{
+    width: 100px;
+}
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+}
+.botones a{
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: aliceblue;
+    color: black;
+    margin: 2px;
+    padding: 2px;
+}
+main{
+    min-height:550px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+}
+.img_foo a img{
+    width: 30px;
+}
+.what{
+    width: 50px !important;
+}
+h1{
+    text-align: center;
+    background-color: rgb(224, 224, 224);
+    font-size: 3rem;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div input{
+    width: 10px;
+}
+.int{
+    width: 50px;
+}
+.submit{
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+    align-items: flex-end;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.categ{
+    display: flex;
+    flex-wrap: wrap;
+    width: 120px;
+    padding-left: 10px;
+}
+.div_b{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.bus{
+    display: flex;
+    flex-wrap: wrap;
+}
+.busq{
+    width: 130px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+}
+.form2 div input{
+    width: 250px !important;
+}
+table{
+    width: 250px;
+    font-size:x-small ;
+}
+tr,td,th{
+    border: 2px solid black;
+    padding: 7px;
+}
+.tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+td,th{
+    width: 80px;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+input{
+    border: 2px solid black;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+h5{
+    text-align: center;
+}
+.check_sep{
+    margin:10px;
+}
+@media (min-width:768px) and (max-width:1023px){
+.cards div{
+    margin: 5px;
+}
+.botones a{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.categ{
+    display: flex;
+    flex-direction: row;
+}
+.submit{
+    margin-left: 225px;
+    display: flex;
+    justify-content: flex-end;
+}
+}
+@media(min-width:1023px){
+    .cards div{
+        margin: 5px;
+    }
+    .botones a{
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .categ{
+        display: flex;
+        flex-direction: row;
+        width: 900px;
+        margin-left: 20px;
+    }
+    .form div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    table{
+        width: 750px;
+        font-size:medium;
+    }
+    .tab{
+        margin: 20px;
+    }
+    .form1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    .submit input{
+        margin-right: 35px;
+    }
+    }
